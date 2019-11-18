@@ -5,6 +5,7 @@ import background from "../images/whole.png";
 import AboutMe from '../components/AboutMe';
 import BasicLayout from '../layout/BasicLayout';
 import Responsive from '../components/Responsive';
+import Projects from '../components/Projects'
 
 
 export default function BrightHome() {
@@ -20,6 +21,7 @@ export default function BrightHome() {
 
                 <AboutMe />
                 <Responsive />
+                <Projects />
             </BasicLayout>
         </>
     )
