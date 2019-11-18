@@ -1,11 +1,11 @@
 import React from 'react'
 import "./BrightHome.scss"
-import StandBrightNav from '../components/StandBrightNav'
 import background from "../images/whole.png";
 import AboutMe from '../components/AboutMe';
 import BasicLayout from '../layout/BasicLayout';
 import Responsive from '../components/Responsive';
 import Projects from '../components/Projects'
+import Contact from "../components/Contact"
 
 
 export default function BrightHome() {
@@ -22,6 +22,7 @@ export default function BrightHome() {
                 <AboutMe />
                 <Responsive />
                 <Projects />
+                <Contact />
             </BasicLayout>
         </>
     )

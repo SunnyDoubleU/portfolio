@@ -1,0 +1,35 @@
+.Contact {
+    height: 100vh;
+    background: #FDF4F5;
+    .Contact-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30vh 0 0 0;
+    }
+    h2{
+        color: #ff6f61;
+        font-family: Next;
+        font-weight: 200;
+        font-size: 1.5rem;
+        letter-spacing: -1px;
+        margin: 0 0 5px 0;
+    }
+    .Contact-icons {
+        display: flex;
+        flex-direction: column;
+        a {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            text-decoration: none;
+            color: #777777;
+        }
+        img {
+            height: 35px;
+            margin: 1vh 2vw;
+        }
+    }
+}
